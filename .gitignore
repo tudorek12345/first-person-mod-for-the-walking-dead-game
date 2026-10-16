@@ -1,0 +1,50 @@
+# Locally extracted game resources, reverse engineering and save backups.
+/research/
+/build/
+/dist/
+/release-build/
+/releases/
+/logs/
+*.ttarch
+*.ttarch2
+*.lenc
+*.sav
+*.save
+*.dmp
+*.jsonl
+*.log
+
+# Downloaded third-party tools and generated binary artifacts.
+/tools/ttarchext/
+/tools/luadec/
+/tools/java/
+/tools/telltale-lua/
+# One-off native reverse-engineering probes retained only in the local workspace.
+/tools/debug_smoke.py
+/tools/inspect_native.py
+/tools/probe_memory.py
+*.zip
+*.7z
+*.exe
+*.dll
+*.pdb
+*.obj
+
+# Python caches, local environments and credentials.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+.env.*
+!.env.example
+
+# Local editor and operating-system state.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
